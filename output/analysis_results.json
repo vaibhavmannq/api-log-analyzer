@@ -1,0 +1,172 @@
+{
+  "analysis_timestamp": "2025-06-14T18:24:35.176289",
+  "total_logs_analyzed": 50,
+  "most_active_ips": [
+    {
+      "ip": "83.144.94.57",
+      "count": 1
+    },
+    {
+      "ip": "146.24.177.177",
+      "count": 1
+    },
+    {
+      "ip": "37.217.17.177",
+      "count": 1
+    },
+    {
+      "ip": "114.65.65.39",
+      "count": 1
+    },
+    {
+      "ip": "78.205.207.55",
+      "count": 1
+    }
+  ],
+  "top_endpoints": [
+    {
+      "endpoint": "/api/logout",
+      "count": 18
+    },
+    {
+      "endpoint": "/api/orders",
+      "count": 9
+    },
+    {
+      "endpoint": "/api/users",
+      "count": 9
+    },
+    {
+      "endpoint": "/api/data",
+      "count": 8
+    },
+    {
+      "endpoint": "/api/login",
+      "count": 6
+    }
+  ],
+  "error_summary": {
+    "5xx_count": 13,
+    "5xx_errors": [
+      {
+        "timestamp": "2025-06-06T06:38:30.450331",
+        "ip": "78.205.207.55",
+        "endpoint": "/api/login",
+        "status": 500,
+        "method": "GET"
+      },
+      {
+        "timestamp": "2025-06-06T06:35:15.450331",
+        "ip": "196.43.248.105",
+        "endpoint": "/api/orders",
+        "status": 500,
+        "method": "POST"
+      },
+      {
+        "timestamp": "2025-06-06T06:35:19.450331",
+        "ip": "115.232.161.155",
+        "endpoint": "/api/login",
+        "status": 502,
+        "method": "DELETE"
+      },
+      {
+        "timestamp": "2025-06-06T06:31:25.450331",
+        "ip": "197.222.194.227",
+        "endpoint": "/api/data",
+        "status": 500,
+        "method": "POST"
+      },
+      {
+        "timestamp": "2025-06-06T06:30:01.450331",
+        "ip": "202.73.126.180",
+        "endpoint": "/api/data",
+        "status": 500,
+        "method": "GET"
+      },
+      {
+        "timestamp": "2025-06-06T06:30:41.450331",
+        "ip": "154.9.122.247",
+        "endpoint": "/api/logout",
+        "status": 500,
+        "method": "GET"
+      },
+      {
+        "timestamp": "2025-06-06T06:39:19.450331",
+        "ip": "199.104.166.151",
+        "endpoint": "/api/data",
+        "status": 502,
+        "method": "GET"
+      },
+      {
+        "timestamp": "2025-06-06T06:37:19.450331",
+        "ip": "197.150.43.202",
+        "endpoint": "/api/logout",
+        "status": 502,
+        "method": "PUT"
+      },
+      {
+        "timestamp": "2025-06-06T06:31:45.450331",
+        "ip": "137.174.84.88",
+        "endpoint": "/api/data",
+        "status": 500,
+        "method": "POST"
+      },
+      {
+        "timestamp": "2025-06-06T06:35:47.450331",
+        "ip": "48.27.44.7",
+        "endpoint": "/api/orders",
+        "status": 502,
+        "method": "GET"
+      },
+      {
+        "timestamp": "2025-06-06T06:31:06.450331",
+        "ip": "38.176.200.223",
+        "endpoint": "/api/logout",
+        "status": 502,
+        "method": "PUT"
+      },
+      {
+        "timestamp": "2025-06-06T06:36:04.450331",
+        "ip": "102.216.84.60",
+        "endpoint": "/api/logout",
+        "status": 502,
+        "method": "GET"
+      },
+      {
+        "timestamp": "2025-06-06T06:34:30.450331",
+        "ip": "211.135.103.75",
+        "endpoint": "/api/users",
+        "status": 502,
+        "method": "PUT"
+      }
+    ]
+  },
+  "endpoint_error_rates": {
+    "/api/logout": {
+      "calls": 18,
+      "errors": 4,
+      "error_rate": 22.22
+    },
+    "/api/orders": {
+      "calls": 9,
+      "errors": 2,
+      "error_rate": 22.22
+    },
+    "/api/login": {
+      "calls": 6,
+      "errors": 2,
+      "error_rate": 33.33
+    },
+    "/api/users": {
+      "calls": 9,
+      "errors": 1,
+      "error_rate": 11.11
+    },
+    "/api/data": {
+      "calls": 8,
+      "errors": 4,
+      "error_rate": 50.0
+    }
+  },
+  "avg_response_time_ms": 530.74
+}
