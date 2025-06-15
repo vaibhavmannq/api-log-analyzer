@@ -32,8 +32,7 @@ api-log-analyzer/
 ├── tests/           # Unit tests
 ├── data/            # Input log files
 ├── output/          # Analysis results (auto-created)
-│   ├── analysis_results.json      # Structured JSON output
-│   └── analysis_report.txt        # Human-readable report
+│   └── analysis_results.json      # Structured JSON output
 ├── main.py          # Entry point
 └── README.md
 ```
@@ -106,7 +105,7 @@ Structured data perfect for programmatic access:
 }
 ```
 
-### 2. Human-Readable Report (`output/analysis_report.txt`)
+### 2. Human-Readable Report
 Formatted for easy reading and sharing:
 
 ```
